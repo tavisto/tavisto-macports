@@ -1,0 +1,7 @@
+name    'tavisto-macports'
+version '0.0.1'
+author 'Tavis Aitken'
+license 'Apache License, Version 2.0'
+summary 'Manages the configuration of macports'
+description 'Manages things like default variants and all the paths macports uses'
+project_page 'http://github.com/tavisto/tavisto-macports'

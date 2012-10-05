@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "types": [
+
+  ],
+  "description": "Manages things like default variants and all the paths macports uses",
+  "summary": "Manages the configuration of macports",
+  "author": "Tavis Aitken",
+  "dependencies": [
+
+  ],
+  "source": "UNKNOWN",
+  "project_page": "http://github.com/tavisto/tavisto-macports",
+  "checksums": {
+    "README": "63facfbb853fe5862feac68314aaa9b1",
+    "tests/init.pp": "45a73b43931aed7c3150fe8db53cca73",
+    "templates/macports.conf.erb": "bad893734ce56834e1f1d4523f16f12a",
+    "templates/variants.conf.erb": "88d32b2a35dc122847a436cc048950e2",
+    "Modulefile": "3cf4ab29d105e504f2a94421030a2107",
+    "manifests/init.pp": "a1ae761a954d21c5b1783886af6022ab",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372"
+  },
+  "license": "Apache License, Version 2.0",
+  "name": "tavisto-macports"
+}

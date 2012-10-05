@@ -1,0 +1,28 @@
+# MacPorts system wide configuration file
+#
+# Managed by puppet
+
+# Set the directory in which to install ports. 
+# Must match where MacPorts itself is installed.
+prefix <%= prefix %>
+
+# Where to store MacPorts working data
+portdbpath <%= portdbpath%>
+
+# Directory containing Applications from ports.
+applications_dir <%= applications_dir %>
+
+# Directory containing Frameworks from ports.
+frameworks_dir <%= frameworks_dir %>
+
+# Where to find the sources list.
+sources_conf <%= sources_conf %>
+
+# Where to find global variants definition file (optional)
+variants_conf <%= variants_conf %>
+
+# CPU architectures to use for Universal Binaries (+universal variant)
+universal_archs <%= universal_archs %>
+
+# Set whether to automatically execute "clean" after "install" of ports
+portautoclean <%= portautoclean %>
